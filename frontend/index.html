@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIMA TACT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Imagens/icone2.png" type="image/x-icon">
+</head>
+<body>
+
+
+<div id="principal">
+    <div>
+        <img src="Imagens/icone2.png" alt="">
+    </div>
+     <div class="container">
+        <h1 id="city-name">Cidade</h1>
+        <h2 id="temperature">--°C</h2>
+        <p id="weather-description">Descrição do clima </p>
+        <p id="max-min">Máx.: --° Mín.: --°</p>
+        
+        <div class="alert">
+            <h3>Alertas de Clima</h3>
+            <p id="weather-alert">Sem alertas no momento.</p>
+        </div>
+
+        <div class="forecast-hourly">
+            <h3>Previsão das próximas horas</h3>
+            <div id="hourly-forecast-container">
+                <button id="prev-btn" onclick="alterarHora(-1)">◄</button>
+
+                <div id="hourly-forecast">
+
+
+
+                </div>
+                <button id="next-btn" onclick="alterarHora(1)">►</button>
+            </div>
+        </div>
+
+        <div class="forecast-daily">
+            <h3>Previsão para os próximos dias</h3>
+            <div id="daily-forecast-container">
+                <button id="prev-btn" onclick="alterarDia(-1)">◄</button>
+                <div id="daily-forecast">
+
+                </div>
+                <button id="next-btn" onclick="alterarDia(1)">►</button>
+            </div>
+        </div>
+    </div>
+</div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
