@@ -17,7 +17,9 @@ Flask para criar o servidor backend.
 HTML5 e CSS3 para estruturação e estilização do frontend.
 JavaScript para manipulação interativa de dados e funcionalidades no frontend.
 API OpenWeatherMap para obter dados detalhados de previsão do tempo.
+
 PREVIEW:
+
 ![image](https://github.com/user-attachments/assets/fd3b5bcd-c744-42b4-bc4d-314a237cde16)
 
 👤 Autor
